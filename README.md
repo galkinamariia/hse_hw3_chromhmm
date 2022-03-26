@@ -41,7 +41,7 @@ http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wg
 
 ### ChromHMM
 
-Папка с сформировавшимися файлами - [ChromHMM]()
+Папка с сформировавшимися файлами - [ChromHMM](https://github.com/galkinamariia/hse_hw3_chromhmm/tree/main/ChromHMM)
 
 
 
