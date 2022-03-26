@@ -34,7 +34,10 @@ http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wg
 ![image](https://user-images.githubusercontent.com/59726719/160252726-46ddbcfa-521e-4703-a22f-330b6d4fe581.png)
 
 
-### Текстовый файл cellmarkfiletable.txt - [cellmarkfiletable.txt]()
+### Сформированный текстовый файл cellmarkfiletable.txt - [cellmarkfiletable.txt](https://github.com/galkinamariia/hse_hw3_chromhmm/blob/main/cellmarkfiletable.txt)
+
+![image](https://user-images.githubusercontent.com/59726719/160255399-45d26043-16d6-4ff2-8a4d-14b9ee16014b.png)
+
 
 ### ChromHMM
 
