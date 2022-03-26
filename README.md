@@ -36,10 +36,14 @@ http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wg
 
 ### Сформированный текстовый файл cellmarkfiletable.txt - [cellmarkfiletable.txt](https://github.com/galkinamariia/hse_hw3_chromhmm/blob/main/cellmarkfiletable.txt)
 
-![image](https://user-images.githubusercontent.com/59726719/160255399-45d26043-16d6-4ff2-8a4d-14b9ee16014b.png)
+![image](https://user-images.githubusercontent.com/59726719/160255418-465c234c-c297-4086-8bbb-10df9e74412d.png)
 
 
 ### ChromHMM
+
+Папка с сформировавшимися файлами - [ChromHMM]()
+
+
 
 ### Эпигетические типы
 
