@@ -65,3 +65,28 @@
 | 10 |Heterochromatin|Почти не встречается, кроме: <ul><li>H3k27me3|Данное состояние попадает на интрон гена и показывает низкий сигнал. Чаще всего ассоциировано с ядерной ламиной, т.е. попадает на участок репрессированного гетерохроматина. Чаще всего ассоциировано с: <ul><li>laminB1lands<li>Genome|![](./img/10.png)|
 
 ## Часть №2:
+
+### Код
+```python
+  types = ['Transcribed', 'Enhancer', 'Promoter', 'Enhancer', 'Transcribed', 'Repressed', 'Repressed', 'Heterochromatin','Transcribed', 'Heterochromatin']
+with open(f'learnData/GM12878_10_dense.bed', 'r') as f:
+  with open(f'learnData/GM12878_dense_new.bed', 'a') as f_new:
+    lines = f.readlines()
+    flag = True
+    for line in lines:
+      if flag:
+        flag = False
+        f_new.write(line)
+      else:
+        arr = line.split('\t')
+        arr[3] = arr[3]+'_'+types[int(arr[3])-1]
+        f_new.write('\t'.join(arr))
+```
+### Результат работы кода
+>До:
+>
+>![image](https://user-images.githubusercontent.com/59726719/160299314-131e7bc8-f455-470e-8e48-ceda0b43f67a.png)
+
+>После:
+>
+>![image](https://user-images.githubusercontent.com/59726719/160299411-aa2e1940-c592-4c17-a47e-d6757eae6943.png)
