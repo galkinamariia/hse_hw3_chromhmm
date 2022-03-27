@@ -54,14 +54,14 @@
 | № Состояния | Эпигенетический тип | Встречаемость в гистоновых модификациях | Описание | Изображение из USCC |
 |:---------:|:-------------------:|---------------------------------------|--------|:-------------------:|
 | 1 ||Встречается почти во всех, но чаще всего в: <ul><li>H3k79me2|Чаще всего ассоциировано с: <ul><li>RefSeqGene|![](./img/1.png)|
-| 2 ||Встречается во всех, но чаще всего в: <ul><li>H3k79me2<li>H3K4me3<li>H3k27ac<li>H3k9ac|Чаще всего ассоциировано с: <ul><li>RefSeqGene<li>RefSeqTES<li>RefSeqTSS2kb|<img src="img/2.png" width="300" height="180">|
-| 3 ||Встречается во всех, но чаще всего в: <ul><li>H3k79me2<li>H3K4me3<li>H3k27ac<li>H3k9ac<li>H2az|Чаще всего ассоциировано с: <ul><li>CpGIsland<li>RefSeqExon<li>RefSeqGene<li>RefSeqTES<li>RefSeqTSS<li>RefSeqTSS2kb|<img src="img/3.png" width="300" height="180">|
-| 4 ||Встречается во всех, но чаще всего в: <ul><li>H2az<li>H3k27ac<li>H3K4me3<li>H3k9ac<li>Ctcf|Чаще всего ассоциировано с: <ul><li>CpGIsland<li>RefSeqExon<li>RefSeqTES<li>RefSeqTSS<li>RefSeqTSS2kb|<img src="img/4.png" width="300" height="180">|
-| 5 ||Встречается почти во всех, но чаще всего в: <ul><li>H2az<li>H3K4me3|Чаще всего ассоциировано с: <ul><li>laminB1lands<li>RefSeqTES<li>RefSeqTSS2kb|<img src="img/5.png" width="300" height="180">|
-| 6 ||Встречается во всех, но чаще всего в: <ul><li>H3k27ac<li>H2az<li>H3k9ac<li>H3K4me3<li>H3k79me2|Чаще всего ассоциировано с: <ul><li>RefSeqTES<li>laminB1lands<li>RefSeqExon<li>RefSeqGene|<img src="img/6.png" width="300" height="180">|
-| 7 ||Редко встречается, наиболее часто в: <ul><il>Ctcf<li>H2az<li>Ezh239875|Чаще всего ассоциировано с: <ul><li>RefSeqTES<li>laminB1lands<li>RefSeqExon|<img src="img/7.png" width="300" height="180">|
-| 8 ||Почти не встречается|Чаще всего ассоциировано с: <ul><li>Genome<li>laminB1lands|<img src="img/8.png" width="300" height="180">|
-| 9 ||Встречается во всех, но чаще всего в: <ul><li>H3k27me3<li>Ezh239875<li>H3K4me3<li>H3k9me3|Чаще всего ассоциировано с: <ul><li>RefSeqTES<li>CpGIsland<li>RefSeqExon<li>RefSeqTSS2kb<li>laminB1lands|<img src="img/9.png" width="300" height="180">|
-| 10 ||Почти не встречается, кроме: <ul><li>H3k27me3|Чаще всего ассоциировано с: <ul><li>laminB1lands<li>Genome|<img src="img/10.png" width="300" height="180">|
+| 2 ||Встречается во всех, но чаще всего в: <ul><li>H3k79me2<li>H3K4me3<li>H3k27ac<li>H3k9ac|Чаще всего ассоциировано с: <ul><li>RefSeqGene<li>RefSeqTES<li>RefSeqTSS2kb|![](./img/2.png)|
+| 3 ||Встречается во всех, но чаще всего в: <ul><li>H3k79me2<li>H3K4me3<li>H3k27ac<li>H3k9ac<li>H2az|Чаще всего ассоциировано с: <ul><li>CpGIsland<li>RefSeqExon<li>RefSeqGene<li>RefSeqTES<li>RefSeqTSS<li>RefSeqTSS2kb|![](./img/3.png)|
+| 4 ||Встречается во всех, но чаще всего в: <ul><li>H2az<li>H3k27ac<li>H3K4me3<li>H3k9ac<li>Ctcf|Чаще всего ассоциировано с: <ul><li>CpGIsland<li>RefSeqExon<li>RefSeqTES<li>RefSeqTSS<li>RefSeqTSS2kb|![](./img/4.png)|
+| 5 ||Встречается почти во всех, но чаще всего в: <ul><li>H2az<li>H3K4me3|Чаще всего ассоциировано с: <ul><li>laminB1lands<li>RefSeqTES<li>RefSeqTSS2kb|![](./img/5.png)|
+| 6 ||Встречается во всех, но чаще всего в: <ul><li>H3k27ac<li>H2az<li>H3k9ac<li>H3K4me3<li>H3k79me2|Чаще всего ассоциировано с: <ul><li>RefSeqTES<li>laminB1lands<li>RefSeqExon<li>RefSeqGene|![](./img/6.png)|
+| 7 ||Редко встречается, наиболее часто в: <ul><il>Ctcf<li>H2az<li>Ezh239875|Чаще всего ассоциировано с: <ul><li>RefSeqTES<li>laminB1lands<li>RefSeqExon|![](./img/7.png)|
+| 8 ||Почти не встречается|Чаще всего ассоциировано с: <ul><li>Genome<li>laminB1lands|![](./img/8.png)|
+| 9 ||Встречается во всех, но чаще всего в: <ul><li>H3k27me3<li>Ezh239875<li>H3K4me3<li>H3k9me3|Чаще всего ассоциировано с: <ul><li>RefSeqTES<li>CpGIsland<li>RefSeqExon<li>RefSeqTSS2kb<li>laminB1lands|![](./img/9.png)|
+| 10 ||Почти не встречается, кроме: <ul><li>H3k27me3|Чаще всего ассоциировано с: <ul><li>laminB1lands<li>Genome|![](./img/10.png)|
 
 ## Часть №2:
