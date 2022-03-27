@@ -82,7 +82,7 @@ with open(f'learnData/GM12878_10_dense.bed', 'r') as f:
         arr[3] = arr[3]+'_'+types[int(arr[3])-1]
         f_new.write('\t'.join(arr))
 ```
-### Результат работы кода
+#### Результат работы кода
 >До:
 >
 >![image](https://user-images.githubusercontent.com/59726719/160299314-131e7bc8-f455-470e-8e48-ceda0b43f67a.png)
@@ -90,3 +90,25 @@ with open(f'learnData/GM12878_10_dense.bed', 'r') as f:
 >После:
 >
 >![image](https://user-images.githubusercontent.com/59726719/160299411-aa2e1940-c592-4c17-a47e-d6757eae6943.png)
+
+### Дополнительный код для выполнения домашнего задания
+#### Создание файла cellmarkfiletable.txt
+```python
+  import os
+control = 'Control.bam'
+
+with open(f'cellmarkfiletable.txt', 'a') as the_file:
+  for file in os.listdir():
+    if file[-3:] == 'bam' and "Control" not in file:
+      the_file.write(f'GM12878\t{file[:-4]}\t{file}\t{control}\n')
+```
+
+#### Binarize Bam
+```python
+  !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData
+```
+  
+#### Learn Module
+```python
+  !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar LearnModel  -b 200 /content/binarizedData/ /content/learnData 10 hg19
+```
