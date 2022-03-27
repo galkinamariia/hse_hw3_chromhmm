@@ -53,7 +53,7 @@
 
 | № Состояния | Эпигенетический тип | Встречаемость в гистоновых модификациях | Описание | Изображение из USCC |
 |:---------:|:-------------------:|---------------------------------------|--------|:-------------------:|
-| 1 ||Встречается почти во всех, но чаще всего в: <ul><li>H3k79me2|Чаще всего ассоциировано с: <ul><li>RefSeqGene|<img src="img/1.png" width="300" height="180">|
+| 1 ||Встречается почти во всех, но чаще всего в: <ul><li>H3k79me2|Чаще всего ассоциировано с: <ul><li>RefSeqGene|![](./img/img1.png)|
 | 2 ||Встречается во всех, но чаще всего в: <ul><li>H3k79me2<li>H3K4me3<li>H3k27ac<li>H3k9ac|Чаще всего ассоциировано с: <ul><li>RefSeqGene<li>RefSeqTES<li>RefSeqTSS2kb|<img src="img/2.png" width="300" height="180">|
 | 3 ||Встречается во всех, но чаще всего в: <ul><li>H3k79me2<li>H3K4me3<li>H3k27ac<li>H3k9ac<li>H2az|Чаще всего ассоциировано с: <ul><li>CpGIsland<li>RefSeqExon<li>RefSeqGene<li>RefSeqTES<li>RefSeqTSS<li>RefSeqTSS2kb|<img src="img/3.png" width="300" height="180">|
 | 4 ||Встречается во всех, но чаще всего в: <ul><li>H2az<li>H3k27ac<li>H3K4me3<li>H3k9ac<li>Ctcf|Чаще всего ассоциировано с: <ul><li>CpGIsland<li>RefSeqExon<li>RefSeqTES<li>RefSeqTSS<li>RefSeqTSS2kb|<img src="img/4.png" width="300" height="180">|
