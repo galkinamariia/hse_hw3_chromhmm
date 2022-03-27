@@ -10,10 +10,11 @@
 
 ## Часть №1:
 
-В домашнем задании №2 рассматривалась клеточная линия PC-9. Так как она не содержит ChIP-seq эксперименты в рассматриваемых гистоновых метках для ДЗ№3, то была взята другая клеточная линия - GM12878. Гистоновая метка из ДЗ№2 - H3k4me3.
-![image](https://user-images.githubusercontent.com/59726719/160252289-dc8f14b0-73a2-4411-8f83-4e502da2c20f.png)
+> В домашнем задании №2 рассматривалась клеточная линия PC-9. Так как она не содержит ChIP-seq эксперименты в рассматриваемых гистоновых метках для ДЗ№3, то была взята другая клеточная линия - GM12878. Гистоновая метка из ДЗ№2 - H3k4me3.
+> ![image](https://user-images.githubusercontent.com/59726719/160252289-dc8f14b0-73a2-4411-8f83-4e502da2c20f.png)
 
 ### Список гистоновых меток и ссылки на bam-файлы
+
 | № | Гистоновая метка | Ссылка на bam-файл |
 |:-:|:----------------:|:------------------:|
 | 1 |H3k4me3|http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneGm12878H3k4me3StdAlnRep1.bam|
@@ -28,23 +29,43 @@
 | 10 |H3k27me3|http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneGm12878H3k27me3StdAlnRep1.bam|
 
 ### Файл с контрольным экспериментом для соответствующего типа клеток 
+>
+> http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneGm12878ControlStdAlnRep1.bam
+>
+> ![image](https://user-images.githubusercontent.com/59726719/160252726-46ddbcfa-521e-4703-a22f-330b6d4fe581.png)
 
-http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneGm12878ControlStdAlnRep1.bam
 
-![image](https://user-images.githubusercontent.com/59726719/160252726-46ddbcfa-521e-4703-a22f-330b6d4fe581.png)
-
-
-### Сформированный текстовый файл cellmarkfiletable.txt - [cellmarkfiletable.txt](https://github.com/galkinamariia/hse_hw3_chromhmm/blob/main/cellmarkfiletable.txt)
-
-![image](https://user-images.githubusercontent.com/59726719/160255418-465c234c-c297-4086-8bbb-10df9e74412d.png)
+### Сформированный текстовый файл cellmarkfiletable.txt - [cellmarkfiletable.txt]
+> (https://github.com/galkinamariia/hse_hw3_chromhmm/blob/main/cellmarkfiletable.txt)
+>
+> ![image](https://user-images.githubusercontent.com/59726719/160255418-465c234c-c297-4086-8bbb-10df9e74412d.png)
 
 
 ### ChromHMM
-
-Папка с сформировавшимися файлами - [ChromHMM](https://github.com/galkinamariia/hse_hw3_chromhmm/tree/main/ChromHMM)
-
-
+>
+> Папка с сформировавшимися файлами - [ChromHMM](https://github.com/galkinamariia/hse_hw3_chromhmm/tree/main/ChromHMM)
+>
+> <img src="ChromHMM/emissions_10.png" width="352" height="380"><img src="ChromHMM/GM12878_10_overlap.png" width="352" height="380">
+> <img src="ChromHMM/GM12878_10_RefSeqTES_neighborhood.png" width="352" height="380"><img src="ChromHMM/GM12878_10_RefSeqTSS_neighborhood.png" width="352" height="380">
+> <img src="ChromHMM/transitions_10.png" width="352" height="380">
 
 ### Эпигетические типы
+
+| Номер состояния| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
+|:--------------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:--:|
+|Название состояния|||||||||||
+
+| № Состояния | Эпигенетический тип | Встречаемость в гистоновых модификациях | Описание | Изображение из USCC |
+|:---------:|:-------------------:|:---------------------------------------:|:--------:|:-------------------:|
+| 1 |||||
+| 2 |||||
+| 3 |||||
+| 4 |||||
+| 5 |||||
+| 6 |||||
+| 7 |||||
+| 8 |||||
+| 9 |||||
+| 10 |||||
 
 ## Часть №2:
