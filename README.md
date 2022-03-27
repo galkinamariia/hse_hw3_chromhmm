@@ -60,8 +60,8 @@
 | 5 ||Встречается почти во всех, но чаще всего в: <ul><li>H2az<li>H3K4me3|Чаще всего ассоциировано с: <ul><li>laminB1lands<li>RefSeqTES<li>RefSeqTSS2kb|![](./img/5.png)|
 | 6 ||Встречается во всех, но чаще всего в: <ul><li>H3k27ac<li>H2az<li>H3k9ac<li>H3K4me3<li>H3k79me2|Чаще всего ассоциировано с: <ul><li>RefSeqTES<li>laminB1lands<li>RefSeqExon<li>RefSeqGene|![](./img/6.png)|
 | 7 ||Редко встречается, наиболее часто в: <ul><il>Ctcf<li>H2az<li>Ezh239875|Чаще всего ассоциировано с: <ul><li>RefSeqTES<li>laminB1lands<li>RefSeqExon|![](./img/7.png)|
-| 8 ||Почти не встречается|Чаще всего ассоциировано с: <ul><li>Genome<li>laminB1lands|![](./img/8.png)|
+| 8 ||Почти не встречается|Слабый сигнал. Чаще всего ассоциировано с: <ul><li>Genome<li>laminB1lands|![](./img/8.png)|
 | 9 ||Встречается во всех, но чаще всего в: <ul><li>H3k27me3<li>Ezh239875<li>H3K4me3<li>H3k9me3|Чаще всего ассоциировано с: <ul><li>RefSeqTES<li>CpGIsland<li>RefSeqExon<li>RefSeqTSS2kb<li>laminB1lands|![](./img/9.png)|
-| 10 ||Почти не встречается, кроме: <ul><li>H3k27me3|Чаще всего ассоциировано с: <ul><li>laminB1lands<li>Genome|![](./img/10.png)|
+| 10 ||Почти не встречается, кроме: <ul><li>H3k27me3|Слабый сигнал. Чаще всего ассоциировано с: <ul><li>laminB1lands<li>Genome|![](./img/10.png)|
 
 ## Часть №2:
